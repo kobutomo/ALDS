@@ -9,3 +9,6 @@ add_executable(ALDS1_Stack_test ALDS1_Stack/test.cpp)
 
 add_executable(ALDS1_Allocation_main ALDS1_Allocation/main.cpp)
 add_executable(ALDS1_Allocation_test ALDS1_Allocation/test.cpp)
+
+add_executable(ALDS1_Exhaustive_Search_main ALDS1_Exhaustive_Search/main.cpp)
+add_executable(ALDS1_Exhaustive_Search_test ALDS1_Exhaustive_Search/test.cpp)
