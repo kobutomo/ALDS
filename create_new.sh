@@ -204,8 +204,10 @@ touch test.cpp
 echo "$test_template" >>./test.cpp
 echo "Created test.cpp"
 touch 1_input.txt
+touch 2_input.txt
 echo "Created input.txt"
 touch 1_output.txt
+touch 2_output.txt
 echo "Created output.txt"
 
 cd ..
