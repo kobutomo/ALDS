@@ -57,6 +57,7 @@ test_template=$(
 #include "main.cpp"
 
 #include <dirent.h>
+#include <cstdio>
 
 void Tab(int n) {
   for (int i = 0; i < n; i++) {
@@ -124,7 +125,7 @@ int main() {
     vector<string> po, ao;
 
     string s;
-    ostringstream oss;
+    stringstream oss;
 
     string input = path + "/" + to_string(i) + "_input.txt";
 
@@ -138,14 +139,12 @@ int main() {
     pifs.clear();
     pifs.seekg(0, ios_base::beg);
 
-    istringstream iss(oss.str());
-
-    while (iss >> s) {
-      po.push_back(s);
+    while (getline(oss, s)) {
+      po.push_back(s + "\n");
     }
 
-    while (aifs >> s) {
-      ao.push_back(s);
+    while (getline(aifs, s)) {
+      ao.push_back(s + "\n");
     }
 
     ostringstream ss;
@@ -164,11 +163,8 @@ int main() {
 
       Tab(1);
       cout << Magenta("Your Answer") << endl;
-      Tab(2);
       for (int i = 0; i < po.size(); i++) {
-        if (i != 0) {
-          cout << " ";
-        }
+        Tab(2);
         if (i < ao.size() && po[i] == ao[i]) {
           cout << po[i];
         } else {
@@ -183,17 +179,15 @@ int main() {
 
       Tab(1);
       cout << Magenta("Right Answer") << endl;
-      Tab(2);
       for (int i = 0; i < ao.size(); i++) {
-        if (i != 0) {
-          cout << " ";
-        }
+        Tab(2);
         cout << ao[i];
       }
       cout << endl;
     }
   }
 }
+
 EOS
 )
 
