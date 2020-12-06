@@ -57,7 +57,6 @@ test_template=$(
 #include "main.cpp"
 
 #include <dirent.h>
-#include <cstdio>
 
 void Tab(int n) {
   for (int i = 0; i < n; i++) {
