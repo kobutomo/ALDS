@@ -13,4 +13,6 @@ add_executable(ALDS1_Allocation_test ALDS1_Allocation/test.cpp)
 add_executable(ALDS1_Exhaustive_Search_main ALDS1_Exhaustive_Search/main.cpp)
 add_executable(ALDS1_Exhaustive_Search_test ALDS1_Exhaustive_Search/test.cpp)
 
-add_executable(ALDS1_Koch_Curve2 ALDS1_Koch_Curve/main.cpp)
+add_executable(ALDS1_Koch_Curve ALDS1_Koch_Curve/main.cpp)
+
+add_executable(ALDS_Merge_Sort ALDS_Merge_Sort/main.cpp)
