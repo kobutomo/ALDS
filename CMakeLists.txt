@@ -20,3 +20,5 @@ add_executable(ALDS_Merge_Sort ALDS_Merge_Sort/main.cpp)
 add_executable(ALDS_Partition ALDS_Partition/main.cpp)
 
 add_executable(ALDS_Quick_Sort ALDS_Quick_Sort/main.cpp)
+
+add_executable(ALDS_Counting_Sort ALDS_Counting_Sort/main.cpp)
