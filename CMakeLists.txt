@@ -15,10 +15,12 @@ add_executable(ALDS1_Exhaustive_Search_test ALDS1_Exhaustive_Search/test.cpp)
 
 add_executable(ALDS1_Koch_Curve ALDS1_Koch_Curve/main.cpp)
 
-add_executable(ALDS_Merge_Sort ALDS_Merge_Sort/main.cpp)
+add_executable(ALDS1_Merge_Sort ALDS1_Merge_Sort/main.cpp)
 
-add_executable(ALDS_Partition ALDS_Partition/main.cpp)
+add_executable(ALDS1_Partition ALDS1_Partition/main.cpp)
 
-add_executable(ALDS_Quick_Sort ALDS_Quick_Sort/main.cpp)
+add_executable(ALDS1_Quick_Sort ALDS1_Quick_Sort/main.cpp)
 
-add_executable(ALDS_Counting_Sort ALDS_Counting_Sort/main.cpp)
+add_executable(ALDS1_Counting_Sort ALDS1_Counting_Sort/main.cpp)
+
+add_executable(ALDS1_Rooted_Trees ALDS1_Rooted_Trees/main.cpp)
