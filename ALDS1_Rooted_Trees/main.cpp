@@ -18,12 +18,9 @@ int main() {
     scanf("%d %d", &id, &k);
     if (k > 0) {
       nodes[id].type = "internal node";
-    } else {
-      nodes[id].type = "leaf";
-    }
-    if (k > 0) {
       nodes[id].child = "[";
     } else {
+      nodes[id].type = "leaf";
       nodes[id].child = "[]";
     }
     for (int j = k; j > 0; --j) {
