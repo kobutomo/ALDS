@@ -12,6 +12,11 @@ name=$2
 
 fullname=${prefix}_${name}
 
+if [ $# -ne 2 ]; then
+  echo "2 arguments are required."
+  exit 1
+fi
+
 if [ -d $fullname ]; then
   echo "Directory already exists."
   exit 1
