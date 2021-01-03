@@ -24,3 +24,5 @@ add_executable(ALDS1_Quick_Sort ALDS1_Quick_Sort/main.cpp)
 add_executable(ALDS1_Counting_Sort ALDS1_Counting_Sort/main.cpp)
 
 add_executable(ALDS1_Rooted_Trees ALDS1_Rooted_Trees/main.cpp)
+
+add_executable(ALDS1_Binary_Tree ALDS1_Binary_Tree/main.cpp)
