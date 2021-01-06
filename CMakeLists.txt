@@ -30,3 +30,5 @@ add_executable(ALDS1_Binary_Tree ALDS1_Binary_Tree/main.cpp)
 add_executable(ALDS1_Tree_Walk ALDS1_Tree_Walk/main.cpp)
 
 add_executable(ALDS1_Reconstruction_of_the_Tree ALDS1_Reconstruction_of_the_Tree/main.cpp)
+
+add_executable(ALDS1_Binary_Search_Tree1 ALDS1_Binary_Search_Tree1/main.cpp)
