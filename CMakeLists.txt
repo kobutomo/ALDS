@@ -34,3 +34,5 @@ add_executable(ALDS1_Reconstruction_of_the_Tree ALDS1_Reconstruction_of_the_Tree
 add_executable(ALDS1_Binary_Search_Tree1 ALDS1_Binary_Search_Tree1/main.cpp)
 
 add_executable(ALDS1_Binary_Search_Tree2 ALDS1_Binary_Search_Tree2/main.cpp)
+
+add_executable(ALDS1_Binary_Search_Tree3 ALDS1_Binary_Search_Tree3/main.cpp)
