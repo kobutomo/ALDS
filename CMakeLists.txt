@@ -52,3 +52,5 @@ add_executable(ITP1_Rectangle ITP1_Rectangle/main.cpp)
 add_executable(ITP1_Watch ITP1_Watch/main.cpp)
 
 add_executable(ITP1_Small_Large_or_Equal ITP1_Small_Large_or_Equal/main.cpp)
+
+add_executable(ITP1_Range ITP1_Range/main.cpp)
