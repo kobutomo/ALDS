@@ -52,8 +52,6 @@ echo "Created main.cpp"
 cd ..
 
 # Write settings into CMakeLists.txt
-echo "" >>./CMakeLists.txt
-
 echo "add_executable(${fullname} $fullname/main.cpp)" >>./CMakeLists.txt
 
 echo "Modified CMakeLists.txt"
