@@ -46,3 +46,5 @@ add_executable(ALDS_Priority_Queue ALDS_Priority_Queue/main.cpp)
 add_executable(ITP1_Hello_World ITP1_Hello_World/main.cpp)
 
 add_executable(ITP1_X_Cubic ITP1_X_Cubic/main.cpp)
+
+add_executable(ITP1_Rectangle ITP1_Rectangle/main.cpp)
