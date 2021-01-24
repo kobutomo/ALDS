@@ -56,3 +56,5 @@ add_executable(ITP1_Small_Large_or_Equal ITP1_Small_Large_or_Equal/main.cpp)
 add_executable(ITP1_Range ITP1_Range/main.cpp)
 
 add_executable(ITP1_Sorting_Three_Numbers ITP1_Sorting_Three_Numbers/main.cpp)
+
+add_executable(ITP1_Circle_in_a_Rectangle ITP1_Circle_in_a_Rectangle/main.cpp)
