@@ -42,3 +42,5 @@ add_executable(ALDS1_Complete_Binary_Tree ALDS1_Complete_Binary_Tree/main.cpp)
 add_executable(ALDS1_Maximum_Heap ALDS1_Maximum_Heap/main.cpp)
 
 add_executable(ALDS_Priority_Queue ALDS_Priority_Queue/main.cpp)
+
+add_executable(ITP1_Hello_World ITP1_Hello_World/main.cpp)
