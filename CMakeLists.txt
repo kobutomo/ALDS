@@ -48,3 +48,5 @@ add_executable(ITP1_Hello_World ITP1_Hello_World/main.cpp)
 add_executable(ITP1_X_Cubic ITP1_X_Cubic/main.cpp)
 
 add_executable(ITP1_Rectangle ITP1_Rectangle/main.cpp)
+
+add_executable(ITP1_Watch ITP1_Watch/main.cpp)
