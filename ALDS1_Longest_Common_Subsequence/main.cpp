@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define endl '\n'
+int c[1001][1001];
 
 int LCS(string x, string y) {
-  int c[1001][1001];
   int m = x.size(), n = y.size();
   x = " " + x;
   y = " " + y;
