@@ -1,7 +1,7 @@
 #cmake_minimum_required(VERSION 3.14)
-project(cpp)
+project(aoj)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 # Contest abc 130
 add_executable(ALDS1_Stack_main ALDS1_Stack/main.cpp)
@@ -39,3 +39,4 @@ add_executable(ITP1_Swapping_Two_Numbers ITP1_Swapping_Two_Numbers/main.cpp)
 add_executable(ITP1_How_Many_Divisors ITP1_How_Many_Divisors/main.cpp)
 add_executable(ALDS1_Fibonacci_Number ALDS1_Fibonacci_Number/main.cpp)
 add_executable(ALDS1_Longest_Common_Subsequence ALDS1_Longest_Common_Subsequence/main.cpp)
+add_executable(ITP1_How_many_ways ITP1_How_many_ways/main.cpp)
