@@ -1,15 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define endl '\n'
-
 #define white 1
 #define gray 2
 #define black 3
 
-int n, k, u, v, t = 0;
-int d[101], f[101];
-int M[101][101];
-int colors[101];
+int n, k, u, v, t = 0, d[101], f[101], M[101][101], colors[101];
 
 void dfs(int i) {
   colors[i] = gray;
