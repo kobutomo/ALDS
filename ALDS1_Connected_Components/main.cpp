@@ -4,11 +4,11 @@ using namespace std;
 
 int n, m, s, t, q;
 int colors[100001];
-vector<vector<int>> G(100001);
+vector<int> G[100001];
 
 void dfs(int i, int color) {
   colors[i] = color;
-  auto children = G.at(i);
+  auto children = G[i];
   for (auto child : children) {
     if (colors[child] == 0) dfs(child, color);
   }
@@ -18,8 +18,8 @@ int main() {
   cin >> n >> m;
   for (int i = 0; i < m; ++i) {
     cin >> s >> t;
-    G.at(s).push_back(t);
-    G.at(t).push_back(s);
+    G[s].push_back(t);
+    G[t].push_back(s);
   }
   cin >> q;
 
