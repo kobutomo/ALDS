@@ -9,8 +9,7 @@ vector<vector<int>> G(100001);
 void dfs(int i, int color) {
   colors[i] = color;
   auto children = G.at(i);
-  for (int j = 0; j < children.size(); ++j) {
-    auto child = children.at(j);
+  for (auto child : children) {
     if (colors[child] == 0) dfs(child, color);
   }
 }
