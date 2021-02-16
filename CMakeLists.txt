@@ -44,3 +44,4 @@ add_executable(ALDS1_Matrix_Chain_Multiplication ALDS1_Matrix_Chain_Multiplicati
 add_executable(ALDS1_Graph ALDS1_Graph/main.cpp)
 add_executable(ALDS1_Depth_First_Search ALDS1_Depth_First_Search/main.cpp)
 add_executable(ALDS1_Breadth_First_Search ALDS1_Breadth_First_Search/main.cpp)
+add_executable(ALDS1_Connected_Components ALDS1_Connected_Components/main.cpp)
